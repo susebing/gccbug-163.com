@@ -1,2 +1,3 @@
 # gccbug-163.com
-myNotes
+
+厚积薄发 - 构建完备的知识体系
