@@ -1,3 +1,1 @@
-# gccbug-163.com
-
-厚积薄发 - 构建完备的知识体系
+# Life is a circle.
