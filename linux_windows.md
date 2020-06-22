@@ -1,10 +1,10 @@
 # linux 远程调研 windows exe
 
-windows10: 安装 telnetserver
+1. windows10: 安装 telnetserver
 
-linux: yum install -y expect
+2. linux: yum install -y expect
 
-create test.sh
+3. create test.sh
 
 ```sh
 #!/bin/sh/expect
