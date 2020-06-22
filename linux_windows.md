@@ -3,11 +3,11 @@
 ```sh
 #!/bin/sh/expect
 set timeout -1;
-spawn telnet 10.121.240.71
+spawn telnet 127.0.0.1
 expect "*username:"
-send "pjidaipingtai\r"
+send "root\r"
 expect "*password:"
-send "HWbesano1\r"
+send "123456\r"
 expect "*name:"
 send "china\r"
 expect ">"
