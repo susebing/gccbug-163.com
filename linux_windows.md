@@ -1,5 +1,11 @@
 # linux 远程调研 windows exe
 
+windows10: 安装 telnetserver
+
+linux: yum install -y expect
+
+create test.sh
+
 ```sh
 #!/bin/sh/expect
 set timeout -1;
@@ -14,3 +20,9 @@ expect ">"
 send "D:/xxx.exe\r"
 expect ">"
 ```
+
+# 直接执行
+sh test.sh
+
+# 后台挂载执行
+nohub xxx.sh>2>&1 &
