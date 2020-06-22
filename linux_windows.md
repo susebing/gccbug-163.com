@@ -1,4 +1,4 @@
-# linux 远程调研 windows exe
+# linux 远程调用 windows exe
 
 1. windows10: 安装 telnetserver
 
