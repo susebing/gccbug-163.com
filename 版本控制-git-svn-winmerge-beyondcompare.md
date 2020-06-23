@@ -38,7 +38,7 @@ git push -u origin --tags
 配置全局用户名及邮箱
 ```
 $ git config --global user.name "yourname"
-$ git config --global user.email "yourmail@huawei.com"
+$ git config --global user.email "yourmail@163.com"
 ```
 
 # 检查配置
