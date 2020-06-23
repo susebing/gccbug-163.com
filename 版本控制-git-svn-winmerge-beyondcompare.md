@@ -5,12 +5,12 @@
 
 # Git global setup
 ```
-git config --global user.name "郑兵【713444】"
-git config --global user.email "zhengbing7@huawei.com"
+git config --global user.name "gccbug"
+git config --global user.email "gccbug@163.com"
 ```
 # Create a new repository
 ```
-git clone https://code-sh.rnd.huawei.com/zWX713444/ttt.git
+git clone https://github.com/gccbug/ttt.git
 cd ttt
 touch README.md
 git add README.md
@@ -21,7 +21,7 @@ git push -u origin master
 ```
 cd existing_folder
 git init
-git remote add origin https://code-sh.rnd.huawei.com/zWX713444/ttt.git
+git remote add origin https://github.com/gccbug/ttt.git
 git add .
 git commit
 git push -u origin master
@@ -29,7 +29,7 @@ git push -u origin master
 # Existing Git repository
 ```
 cd existing_repo
-git remote add origin https://code-sh.rnd.huawei.com/zWX713444/ttt.git
+git remote add origin https://github.com/gccbug//ttt.git
 git push -u origin --all
 git push -u origin --tags
 ```
