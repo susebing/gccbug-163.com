@@ -40,19 +40,13 @@ git push -u origin --tags
 $ git config --global user.name "yourname"
 $ git config --global user.email "yourmail@huawei.com"
 ```
-注：请确保该邮箱地址为正确的用户华为邮箱地址，否则会影响代码量统计！！！
-
-yourname：用户名是你的域账号名，如h00131288
-youremail：邮箱为你的外部邮箱，如huzhiyong@huawei.com
-
-Tips：必须要设置用户名及邮箱后才能使用Git，Git通过检测用户名和邮箱来跟踪进行commit的用户,在每次提交代码时这些信息将会附加在提交信息当中。
 
 # 检查配置
 可以使用如下命令检查配置是否正确：
 ```
 $ git config --list
 ```
-设置完了全局用户名和邮箱即可在本地使用Git了，但要使用CodeClub的远程仓库功能，还要进一步进行「配置SSH Key」。
+设置完了全局用户名和邮箱即可在本地使用Git了，但要使用远程仓库功能，还要进一步进行「配置SSH Key」。
 
 # git 出现 SSL certificate problem: unable to get local issuer certificate
 
