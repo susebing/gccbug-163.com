@@ -1,3 +1,5 @@
+# [BOM](https://www.cnblogs.com/findumars/p/3620078.html)
+
 # python 新生成的文件格式由什么决定？
 
 ## window操作系统下文件大部分默认编码是ANSI，中文版是GBK编码
