@@ -39,3 +39,8 @@ b：另一种就是通过工具喽，notepad++
 ## 2 linux 系统默认是 ASCII 编码，也有 UTF-8 编码，GBK 在linux上并不友好
 
 Linux上使用 file filename 可以查看文件的编码格式
+
+```sh
+[root@kwephicprb13712 aa]# file test_log.py
+test_log.py: Python script, ASCII text executable, with CRLF line terminators
+```
