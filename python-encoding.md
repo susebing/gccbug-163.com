@@ -1,6 +1,6 @@
 # 一 [BOM](https://www.cnblogs.com/findumars/p/3620078.html)
 
-BOM 经常会导致乱码的出现，切无法正常解析，一般情况我们会是 ignore 忽略不能正常 decode 的字符
+BOM 经常会导致乱码的出现，切无法正常解析，一般情况我们会使用 ignore 忽略不能正常 decode 的字符
 
 ```py
 def get_decode_data_array(file_path):
