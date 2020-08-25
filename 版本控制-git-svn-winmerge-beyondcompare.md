@@ -3,6 +3,15 @@
 
 # git 
 
+## gitignore生效
+```
+清除全局缓存，再添加所有文件，让.gitignore生效。这里的所谓的清除全局缓存好像对项目也没有多大影响。
+
+git rm -r --cached .
+git add .
+git commit -m "update .gitignore "
+```
+
 # Git global setup
 ```
 git config --global user.name "gccbug"
