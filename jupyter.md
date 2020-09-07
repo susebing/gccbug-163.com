@@ -23,7 +23,7 @@ pip install ipykernel
 python -m ipykernel install --user --name=python --display-name py3-64
 ```
 
-## 设置jupyter 路径
+## 设置 jupyter 路径
 
 ```
 jupyter notebook --generate-config
