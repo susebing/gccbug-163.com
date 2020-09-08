@@ -6,6 +6,8 @@
 
 ### 可以先在服务器设置 ssh 免密登录
 
+[goto](https://www.cnblogs.com/xiaoaofengyue/p/8080639.html)
+
 ```
 
 ```
