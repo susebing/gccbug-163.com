@@ -3,6 +3,26 @@
 
 # git 
 
+## 1、给项目添加.gitignore
+
+```
+.gitignore可以忽略你不想上传的文件，比如doc,target,classes等等
+只需要在.git同目录下新增.gitignore文件，然后添加不需要上次的目录即可，比如
+
+/doc/
+/target/
+/.idea/
+/offer.iml
+```
+
+## 2、清除已经上传的多余文件
+
+```
+如果你添加.gitignore的时候，git里面已经上传了很多不需要的文件，则使用下面两个命令干掉他们
+如果是文件夹：git rm -r --cached 文件夹名
+如果是文件：git rm --cached 文件名
+```
+
 ## gitignore生效
 ```
 清除全局缓存，再添加所有文件，让.gitignore生效。这里的所谓的清除全局缓存好像对项目也没有多大影响。
