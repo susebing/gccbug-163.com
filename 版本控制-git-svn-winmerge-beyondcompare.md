@@ -64,3 +64,73 @@ $ git config --list
 ```
 git config --global http.sslVerify false 
 ```
+
+### 配置 SSH
+
+```
+运行 Git Bash, 在弹出的终端中输入下面提示的代码
+cd ~/.ssh
+ssh-keygen -t rsa -C "xxx@xxx.com"
+clip < ~/.ssh/id_rsa.pub
+```
+
+
+### 配置Git全局用户名和用户邮箱
+
+```
+git config --global user.name "your username"
+git config --global user.email "your Email"
+```
+
+
+### 在本地克隆仓库并推送新建的README文件
+
+```
+git clone ssh://git@xxx.github.com:2222/susebing/test.git
+cd test
+echo "# test" > README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+```
+
+
+### 关联已有代码目录到仓库
+
+```
+cd <Your directory path>
+mv README.md README-backup.md
+git init
+git remote add origin ssh://git@xxx.github.com:2222/susebing/test.git
+git pull origin master
+git add --all
+git commit -m "Initial commit"
+git push -u origin master
+```
+
+
+### 关联已有代码目录到仓库
+
+```
+cd <Your directory path>
+git init
+git remote add origin ssh://git@xxx.github.com:2222/susebing/test.git
+git add --all
+git commit -m "Initial commit"
+git push -u origin master
+```
+
+
+### 关联已有的Git仓库
+
+```
+cd <Your Git repository path>
+git remote remove origin > /dev/null 2>&1
+git remote add origin ssh://git@xxx.github.com:2222/susebing/test.git
+git push -u origin --all -f
+git push -u origin --tags -f
+```
+
+
+
+
